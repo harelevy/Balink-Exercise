@@ -1,0 +1,79 @@
+.languagePicker {
+  text-align: end;
+}
+.text {
+  font-weight: bold;
+  font-family: Lucida Handwriting;
+}
+/* .a {
+  padding-bottom: 84px;
+} */
+body {
+  background-color: rgb(217, 222, 222);
+}
+.submitButton {
+  background-color: #4caf50; /* Green */
+  border-radius: 46%;
+  width: 70px;
+  height: 40px;
+}
+.PassButton {
+  background-color: #77b6cf;
+  border-radius: 46%;
+  width: 70px;
+  height: 40px;
+}
+
+.progressBar {
+  margin-left: 83px;
+  background-color: rgb(67, 226, 215);
+  width: 20px;
+  height: 20px;
+  padding: 32px;
+  border: solid black 1px;
+  border-radius: 50%;
+  margin-right: auto;
+  text-align: center;
+}
+table {
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: auto;
+  width: 65vw;
+  height: 90vh;
+}
+tr {
+  background-color: rgb(217, 222, 222);
+}
+td {
+  background-color: rgb(217, 222, 222);
+}
+.center {
+  text-align: center;
+  padding-top: 15px;
+}
+input,
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
